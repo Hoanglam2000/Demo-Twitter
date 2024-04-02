@@ -1,0 +1,131 @@
+.wrapper {
+  width: 30%;
+  max-width: 280px;
+  background-color: #fff;
+  padding: 0 30px;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.nav li:first-child {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.nav li:first-child .icon {
+  color: var(--primary-color);
+}
+.nav li:first-child:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+}
+.nav .nav_item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 30px 10px 10px;
+  border-radius: 50px;
+  transition: all 0.1s ease-in-out;
+  margin-bottom: 10px;
+}
+.nav .nav_item:hover {
+  background-color: rgba(15, 20, 25, 0.1);
+}
+.nav .nav_item span {
+  font-size: 2rem;
+}
+.nav_item_active {
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 2em;
+}
+.btn {
+  margin-top: 10px;
+}
+
+.btn_ {
+    cursor: pointer;
+    height: 50px;
+    padding: 0 80px;
+    border-radius: 50px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(29, 155, 240);
+    box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+    transition-property: background-color, box-shadow;
+    border-style: none;
+}
+
+.btn_:hover {
+    opacity: 0.85;
+}
+
+
+.user {
+    display: grid;
+    grid-template-columns: auto auto;
+    cursor: pointer;
+    margin-left: 10px;
+    user-select: none;
+    padding: 5px;
+}
+
+.user_info_name {
+    padding-top: 5px;
+    margin-left: -8px;
+}
+
+.user_info_btn {
+    font-size: 3rem;
+    padding-left: 7px;
+}
+
+.user:hover {
+  border-radius: 30px;
+  background-color: rgb(221, 228, 233);
+}
+.box_styles {
+    width: 308px;
+    margin-left: -7px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.box_styles:hover {
+  background-color: rgb(221, 228, 233);
+
+}
+
+.menu:hover {
+  border-radius: 30px;
+  background-color: rgb(221, 228, 233);
+}
+
+/* model */
+
+.model {
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 1331px) {
+  .wrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,158 @@
+.CardMain{
+    max-width: 506px;
+}
+
+.CardHeader{
+    display: flex;
+    width: 100%;
+}
+.aCardHeader{
+    
+}
+.aCardHeader a{
+    width: 100%;
+    font-weight: 700;
+    color: rgb(15, 20, 25);
+    font-size: 15px;
+    line-height: 37.75px;
+}
+.aCardHeader a:hover{
+    text-decoration: underline;
+}
+.spanCardHeader{
+    
+}
+.spanCardHeader span{
+    width: 100%;
+    font-weight: 400;
+    color: rgb(83, 100, 113);
+    font-size: 15px;
+    line-height: 37.75px;
+}
+.spanCardHeader >span>span{
+    margin-left: 5px;
+}
+.spanCardHeader >span> span:hover{
+    text-decoration: underline;
+}
+
+.active {
+    color: rgb(254, 44, 85);
+}
+
+.CardContent{
+    max-width: 500px;
+}
+.CardContent p{
+    font-size: 15px;
+    list-style: 20px;
+    color: rgb(15, 20, 25);
+}
+
+.CardFooter{
+    margin-top: 12px;
+}
+.more{
+    width: 35px;
+    height: 35px;
+}
+.moress{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.moress > button{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+} 
+.more:hover {
+    border-radius: 100%;
+    background-color: rgba(29, 155, 240, 0.1);
+    color: var(--primary-color);
+}
+
+
+.bar {
+    margin-top: 10px;
+    display: flex;
+    gap: 70px;
+    color: rgb(83, 100, 113);
+}
+.bar span {
+    font-size: 1.3rem;
+}
+.item_bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon_bar {
+    font-size: 1.7rem;
+    width: 100%;
+    padding: 7px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.reply:hover .icon_bar, .share:hover .icon_bar {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: var(--primary-color);
+}
+.reply:hover span {
+    color: var(--primary-color);
+}
+.retweet .icon_bar {
+    transform: rotate(90deg);
+}
+
+.retweet:hover .icon_bar {
+    color: rgb(0, 186, 124);
+    background-color: rgba(0, 186, 124, 0.1);
+}
+.retweet:hover span {
+    color: rgb(0, 186, 124);
+}
+.like:hover .icon_bar {
+    color: rgb(249, 24, 128);
+    background-color: rgba(249, 24, 128, 0.1);
+}
+.like:hover span {
+    color: rgb(249, 24, 128);
+}
+
+.modal{
+    margin-top: -35px;
+    margin-right: 150px;
+}
+
+
+
+.icon_bar1 button{
+    display: flex;
+    width: 100%;
+    height: 52px;
+}
+.icon_bar1 button:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.icon_bar2{
+    padding-top: 18px;
+    padding-right: 8px;
+}
+.icon_bar3{
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: -5px;
+}

@@ -1,0 +1,187 @@
+.status {
+    width: 598px;
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.user {
+    margin-right: 12px;
+    width: 52px;
+}
+.box {
+    color: rgb(29, 155, 240);
+    width: 100%;
+}
+.eve {
+    width: 22%;
+    padding: 2px 15px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.evepop > span{
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.iconeven {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.eve:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+}
+
+.happen {
+    margin-top: 12px;
+}
+.happen > input {
+    width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 20px;
+    color: rgb(15, 20, 25);
+    border-color: transparent;
+    outline: none;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.happen input[type='text']:focus {
+    border-color: transparent;
+}
+.reply {
+    display: flex;
+    padding: 2px 6px;
+    width: 202.7px;
+}
+.reply:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    border-radius: 20px;
+}
+.reply > span {
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.bortop {
+    width: 100%;
+    height: 1px;
+    margin-top: 12px;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.unit {
+    display: flex;
+    margin-top: 12px;
+}
+.iconunit {
+    display: flex;
+    width: 100%;
+}
+.iconunitimg {
+    width: 36px;
+    height: 36px;
+    padding: 7px;
+    border-radius: 100%;
+}
+.iconunitimg:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.tweet {
+    margin-top: 5px;
+    display: flex;
+}
+.hrtweet {
+    width: 1px;
+    height: 31px;
+    background-color: rgb(207, 217, 222);
+    margin-right: 12px;
+}
+.addtweet {
+    border: 1px solid rgb(207, 217, 222);
+    margin-top: 5px;
+    margin-right: 12px;
+    padding: 1px 0px 0px 1px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    color: rgb(29, 155, 240);
+}
+.addtweet:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.tweet > button {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 22px;
+    background-color: rgb(29, 155, 240);
+    color: #fff;
+    border-radius: 30px;
+}
+
+.iconreply{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:10px;
+    padding-left: 5px;
+}
+
+.home {
+    width: 100%;
+}
+
+
+
+.evepop{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+.opacity {
+    opacity: 0.5;
+}
+
+
+
+.icon_bar1 > button{
+    display: flex;
+    width: 100%;
+    height: 72px;
+    align-items: center;
+    padding: 15px;
+}
+.icon_bar1 > button > .icon_bar2{
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgb(29, 155, 240);
+}
+.icon_bar1 > button > .icon_bar3{
+    font-size: 16px;
+    font-weight: 200;
+    color: black;
+
+}
+.poptext{
+    height: 35px;
+    padding: 10px;
+}
+
+.poptext1{
+    height: 80px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.062) ;
+    padding: 5px;
+}
+
+.popBody{
+    width: 200px;
+}

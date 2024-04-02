@@ -1,0 +1,43 @@
+
+.wrapper, .button_follow, .button_unfollow, .button_cancel {
+    width: 100%;
+    height: 35px;
+    margin-top: 4px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    background-color: var(--black-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.button_follow:hover {
+    filter: brightness(1.8);
+}
+
+.button_unfollow, .button_cancel {
+    background-color: transparent;
+    border: 1px solid var(--gray-color);
+    color: var(--black-color);
+}
+
+.button_unfollow:hover {
+    background-color: rgb(244, 33, 46, 0.1);
+    border-color: rgb(244, 33, 46, 0.5);
+    color: rgb(244, 33, 46);
+}
+
+.button_cancel:hover {
+    background-color: var(--gray-color);
+    color: white;
+}
+
+.hiden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
