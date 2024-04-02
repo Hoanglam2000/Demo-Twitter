@@ -1,0 +1,23 @@
+.wrapper {
+    padding: 0 16px;
+    margin-bottom: 20px;
+}
+
+.footer_list, .author {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+
+.footer_item > a , .author{
+    margin-right: 12px;
+    color: var(--gray-color);
+}
+
+.footer_item:hover > a {
+    text-decoration: revert;
+}
+

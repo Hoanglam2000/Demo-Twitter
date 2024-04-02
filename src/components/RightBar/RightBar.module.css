@@ -1,0 +1,24 @@
+.wrapper {
+    padding: 0 30px;
+    flex: 2;
+    position: relative;
+}
+
+.search {
+    position: fixed;
+    width: 100%;
+    max-width: 345px;
+    background-color: white;
+    z-index: 999;
+    padding-bottom: 2px;
+}
+
+.content {
+    margin-top: 66px;
+}
+
+@media (max-width: 1032px) {
+    .wrapper {
+        display: none;
+    }
+}

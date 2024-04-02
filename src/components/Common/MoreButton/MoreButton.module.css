@@ -1,0 +1,18 @@
+
+.wrapper {
+    width: 100%;
+    padding: 16px 16px;
+    font-size: 1.5rem;
+    
+}
+
+.wrapper:hover {
+    cursor: pointer;
+    background-color: #eaeaea;
+    transition: all ease 0.2s;
+}
+
+.more_button {
+    color: var(--primary-color);
+}
+

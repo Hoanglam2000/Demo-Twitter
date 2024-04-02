@@ -1,0 +1,32 @@
+.wrapper {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    height: 42px;
+}
+
+.position {
+    display: flex;
+    height: 42px;
+    background-color: var(--background-color);
+    border-radius: 30px;    
+}
+
+.border_input {
+    border: solid 2px var(--primary-color);
+    background-color: white;
+}
+
+.result {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    width: 105%;
+    min-height: 100px;
+    color: var(--gray-color);
+    padding: 20px 32px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+}

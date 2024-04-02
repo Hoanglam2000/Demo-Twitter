@@ -1,0 +1,56 @@
+.wrapper {
+    width: 100%;
+    padding: 12px 16px;
+    transition: all ease 0.2s;
+}
+
+.wrapper:hover {
+    cursor: pointer;
+    background-color: #eaeaea;
+    transition: all ease 0.2s;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.avatar {
+    flex: 1;
+    height: 50px;
+    width: 50px ;
+    border-radius: 50%;
+}
+
+.info {
+    flex: 8;
+    padding: 0 12px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.user_name {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 24px;
+    display: flex;
+}
+
+.auth_icon {
+    display: block;
+    margin-top: 2px;
+    margin-left: 4px;
+    color: var(--primary-color);
+}
+
+.user_id {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--gray-color);
+    font-weight: 300;
+}
+
+.button {
+    flex: 4;
+}

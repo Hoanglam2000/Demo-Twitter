@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: rgb(26, 140, 216);
+    --primary-disable-color: #1D9BF0;
+    --black-color: #0F1419;
+    --gray-color: #536471;
+    --background-color: rgb(239, 243, 244); 
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    text-rendering: optimizeSpeed;
+    color: var(--black-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
