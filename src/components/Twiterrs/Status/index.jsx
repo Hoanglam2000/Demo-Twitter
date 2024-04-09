@@ -29,7 +29,7 @@ import {
 import { uploadImage } from '../../../utils';
 import styles from './Status.module.css';
 import ProfileImg from '../Twiterr-img/index';
-import img from '../Twiterr-img/Play.png';
+import img from '../Twiterr-img/Avatar.png';
 import { addTweet } from '../../../services/getData';
 
 function Status() {
@@ -98,7 +98,7 @@ function Status() {
                     ) : (
                         ''
                     )}
-                    <input {...register('contenTwitter')} />
+                    <input {...register('contenTwitter')} />  
                     <input
                         type="file"
                         {...register('imgTwitter')}

@@ -9,7 +9,7 @@ import Status from './Status';
 
 
 
-import img from './Twiterr-img/Play.png'
+import img from './Twiterr-img/Avatar.png'
 
 import { DataContext } from '../../context/context';
 
@@ -43,11 +43,11 @@ function Twitters() {
                 </div>
                 <div className={styles.card}>
                     <ContentTwiter
-                        nameListTwitter={'Bowling Green Bobcat Hockey'}
-                        locoListTwitter={'bgbobcathockey'}
+                        nameListTwitter={'Claim Airdrops'}
+                        locoListTwitter={'AirDrops0637'}
                         timListTwitter={'8h'}
                         contentListTwitter={
-                            'It’s a Bobcat Hockey GAMEDAY! The Bobcat varsity  will hit the ice today for their first preseason game of the year  against Shaker Heights at 12pm @ BGSU. JV will play tonight at 8:30 against Perrysburg at Tamo.'
+                            'You will receive 5 $BNB = $1,650.00 in your wallet, just like, follow and rt, Retweet pinned  post.'                           
                         }
                         imgListTwitter={img}
                         altListTwitter={'main img'}

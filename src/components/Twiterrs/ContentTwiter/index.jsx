@@ -77,7 +77,7 @@ function ContentTwiter({
                 <ListImgTwitter imgList={imgListTwitter} altList={altListTwitter} />
             </div>
             <div className={styles.bar}>
-                <div className={`${styles.reply} ${styles.item_bar}`}>
+                <div className={`${styles.reply} ${styles.item_bar}`} style={{cursor: 'pointer'}}>
                     <div className={styles.icon_bar}>
                         <FaRegComment />
                     </div>
@@ -88,7 +88,7 @@ function ContentTwiter({
                     <PopoverTrigger>
                         <Button  variant=''>
                             <div className={styles.icon_bar}> <TbRepeat /> </div>
-                            <span>110</span>
+                            <span>100</span>
                         </Button>
                     </PopoverTrigger>
                     <PopoverContent className={styles.modal}>
@@ -114,7 +114,7 @@ function ContentTwiter({
                 </div>
 
                 <div className={`${styles.like} ${styles.item_bar} ${colortoggle}`}onClick={HandleHeart}>
-                    <div className={`${styles.icon_bar} ${colortoggle}`}>
+                    <div className={`${styles.icon_bar} ${colortoggle}`} style={{cursor: 'pointer'}}>
                         <FaRegHeart />
                     </div>
                     <span >{numberHeart}</span>
@@ -126,7 +126,7 @@ function ContentTwiter({
                         <div className={styles.icon_bar}>
                         <HiOutlineUpload />
                         </div>
-                        <span>152</span>
+                        <span>100</span>
                         </Button>
                     </PopoverTrigger>
                     <PopoverContent w='230px' className={styles.modal}>

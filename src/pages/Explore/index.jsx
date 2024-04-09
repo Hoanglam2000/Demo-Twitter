@@ -16,7 +16,7 @@ function Explore() {
                         <div className={styles.search}>
                             <BiSearch />
                         </div>
-                        <input className={styles.input_txt} type="text" placeholder="Search Twiiter"></input>
+                        <input className={styles.input_txt} type="text" placeholder="Search Twitter"></input>
                         <div className={styles.close}>
                             <AiOutlineSetting/>
                         </div>

@@ -27,7 +27,7 @@ function Footer(params) {
                     </Link>
                 </li>
             </ul>
-            <p className={styles.author}>© 2022 Twitter, Inc.</p>
+            <p className={styles.author}>© 2024 Twitter, Inc.</p>
         </div>
     );
 }

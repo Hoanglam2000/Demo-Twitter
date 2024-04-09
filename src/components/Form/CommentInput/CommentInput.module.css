@@ -13,6 +13,8 @@
     height: 52px;
 }
 .container input {
+    display: flex;
+    text-align: center;
     width: 100%;
     border: none;
     outline: none;
