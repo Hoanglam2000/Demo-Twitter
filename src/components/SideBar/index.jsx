@@ -62,37 +62,37 @@ function SideBar() {
                         </NavItem>
                     </li>
                     <li>
-                        <NavItem to="/1">
+                        <NavItem to="/noti">
                             <RiNotification4Line className={styles.icon} />
                             <span>Notifications</span>
                         </NavItem>
                     </li>
                     <li>
-                        <NavItem to="/2">
+                        <NavItem to="/mess">
                             <FiMail className={styles.icon} />
                             <span>Messages</span>
                         </NavItem>
                     </li>
                     <li>
-                        <NavItem to="/3">
+                        <NavItem to="/bookmarks">
                             <BsBookmarkCheck className={styles.icon}  />
                             <span>Bookmarks</span>
                         </NavItem>
                     </li>
                     <li>
-                        <NavItem to="/4">
+                        <NavItem to="/lists">
                             <CiViewList className={styles.icon} />
                             <span>Lists</span>
                         </NavItem>
                     </li>
                     <li>
-                        <NavItem to="/5">
+                        <NavItem to="/profile">
                             <BiUser className={styles.icon} />
                             <span>Profile</span>
                         </NavItem>
                     </li>
                     <li>
-                        <NavItem to="/6">
+                        <NavItem to="/more">
                             <CgMoreO className={styles.icon} />
                             <span>More</span>
                         </NavItem>

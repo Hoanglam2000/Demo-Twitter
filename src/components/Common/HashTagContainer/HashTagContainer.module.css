@@ -11,4 +11,6 @@
     font-weight: 900;
     color: var(--black-color);
     word-wrap: break-word;
+    display: grid;
+    text-align: center;
 }

@@ -3,6 +3,7 @@ import Comment from './components/Comments';
 import DefaultLayout from './layout';
 import Home from './pages/Home';
 import Explore from './pages/Explore';
+import Noti from './pages/Notifications';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                 <Route path="/" element={<DefaultLayout />}>
                     <Route index element={<Home />} />
                     <Route path="/explore" element={<Explore />} />
+                    <Route path="/noti" element={<Noti/>} />
                     <Route
                         path="/comment"
                         element={

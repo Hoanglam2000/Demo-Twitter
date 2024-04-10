@@ -20,7 +20,7 @@
     text-decoration: underline;
 }
 .spanCardHeader{
-    
+
 }
 .spanCardHeader span{
     width: 100%;
@@ -28,6 +28,7 @@
     color: rgb(83, 100, 113);
     font-size: 15px;
     line-height: 37.75px;
+    
 }
 .spanCardHeader >span>span{
     margin-left: 5px;
@@ -56,7 +57,7 @@
     width: 35px;
     height: 35px;
 }
-.moress{
+/* .moress{
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -78,7 +79,7 @@
     border-radius: 100%;
     background-color: rgba(29, 155, 240, 0.1);
     color: var(--primary-color);
-}
+} */
 
 
 .bar {

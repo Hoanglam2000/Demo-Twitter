@@ -36,7 +36,7 @@ const Comment = () => {
             <Flex flexDirection="column" w="100%">
                 <User />
                 <Replying />
-                <Text>Exactly why you need travel insurance.</Text>
+                <Text>I just received 5 $BNB. Thanks you !</Text>
                 <Bar />
             </Flex>
         </Flex>
@@ -133,14 +133,14 @@ const User = () => {
                 <Text fontSize="1.5rem" color="rgb(83, 100, 113)" px="5px">
                     .
                 </Text>
-                <Tooltip label="7:10 PM . 10/11/2022" placement="bottom" fontSize="1.1rem" openDelay={500}>
+                <Tooltip label="10:22 AM . 10/4/2024" placement="bottom" fontSize="1.1rem" openDelay={500}>
                     <Text
                         fontSize="1.5rem"
                         color="rgb(83, 100, 113)"
                         cursor="pointer"
                         _hover={{ textDecoration: 'underline' }}
                     >
-                        Nov 5
+                        Wed 10
                     </Text>
                 </Tooltip>
             </Flex>
@@ -167,7 +167,7 @@ const Replying = () => {
         <Text display="flex" color="rgb(83, 100, 113)">
             Replying to
             <Text ml="5px" color="rgb(29, 155, 240)" _hover={{ textDecoration: 'underline' }}>
-                @vietnamenglish
+            @AirDrops0637
             </Text>
         </Text>
     );

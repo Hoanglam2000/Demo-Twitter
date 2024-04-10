@@ -12,6 +12,7 @@ import Status from './Status';
 import img from './Twiterr-img/Avatar.png'
 
 import { DataContext } from '../../context/context';
+import { Text } from '@chakra-ui/react';
 
 
 
@@ -45,7 +46,7 @@ function Twitters() {
                     <ContentTwiter
                         nameListTwitter={'Claim Airdrops'}
                         locoListTwitter={'AirDrops0637'}
-                        timListTwitter={'8h'}
+                        timListTwitter={'Wed 11'}
                         contentListTwitter={
                             'You will receive 5 $BNB = $1,650.00 in your wallet, just like, follow and rt, Retweet pinned  post.'                           
                         }

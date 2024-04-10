@@ -11,12 +11,15 @@ import {
     PopoverContent,
     PopoverBody,
     Button,
+    Flex,
+    color,
   } from '@chakra-ui/react'
   
 
 
 import ListImgTwitter from '../ListImgTwitter';
 import styles from './ContentTwiter.module.css';
+import { Tooltip } from '@chakra-ui/react';
 
 function ContentTwiter({
    
@@ -61,13 +64,20 @@ function ContentTwiter({
                 </span>
                 </div>
 
-                <div className={styles.more}>
-                    <div className={styles.moress}>
-                    <button>
-                        <IoIosMore size={20} />
-                    </button>
-                    </div>
-                </div>
+                <Tooltip label="More" placement="bottom" fontSize="1.1rem" openDelay={500}>
+                    <Flex
+                    alignItems="center"
+                    p="5px"
+                    borderRadius="100%"
+                    position="absolute"
+                    top="0"
+                    right="0"
+                    cursor="pointer"
+                    transition="all 0.3s ease-in-out"
+                    _hover={{ bgColor: 'rgba(29, 155, 240, 0.1)', color: 'var(--primary-color)'}}>
+                    <IoIosMore size={20}/>
+                    </Flex>
+                </Tooltip>
             </div>
 
             <div className={`${styles.CardContent}`}>
